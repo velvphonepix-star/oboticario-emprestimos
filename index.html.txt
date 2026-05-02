@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Empréstimos Facilitados</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+    }
+
+    body{
+      background:#f4f4f4;
+      font-family:Arial, Helvetica, sans-serif;
+      overflow-x:hidden;
+    }
+
+    .topo{
+      width:100%;
+      background:linear-gradient(90deg,#00695c,#00a39a);
+      display:flex;
+      justify-content:center;
+      align-items:center;
+    }
+
+    .topo img{
+      width:100%;
+      max-width:1600px;
+      display:block;
+    }
+
+    .baixo{
+      width:100%;
+      background:#ffffff;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      padding:20px 0;
+    }
+
+    .baixo img{
+      width:100%;
+      max-width:1600px;
+      display:block;
+      border-radius:20px;
+    }
+
+    @media(max-width:768px){
+
+      .topo img{
+        width:100%;
+        height:auto;
+      }
+
+      .baixo{
+        padding:10px;
+      }
+
+      .baixo img{
+        border-radius:15px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- BANNER VERDE EM CIMA -->
+  <section class="topo">
+    <img src="banner-topo.jpg" alt="Banner Superior">
+  </section>
+
+  <!-- BANNER BRANCO EMBAIXO -->
+  <section class="baixo">
+    <img src="banner-baixo.jpg" alt="Banner Inferior">
+  </section>
+
+</body>
+</html>
